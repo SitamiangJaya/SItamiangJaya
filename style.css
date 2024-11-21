@@ -12,11 +12,11 @@ body {
 }
 
 .whatsapp-link{
-    background-color: green;
+    background-color: #eb0000;
 }
 
 .maps-link{
-    background-color: orange;
+    background-color: #77bc17;
 }
 
 .navbar {
@@ -45,8 +45,8 @@ body {
 }
 
 .slider-container {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 450px;
     overflow: hidden;
     position: relative;
     margin: 20px auto;
@@ -69,7 +69,7 @@ body {
     position: absolute;
     top: 0;
     left: 100%;
-    transition: left 1s ease;
+    transition: left 10s ease;
 }
 
 .slider-image.active {
@@ -95,5 +95,5 @@ body {
 }
 
 .slider {
-    animation: slide 10s infinite;
+    animation: slide 20s infinite;
 }
