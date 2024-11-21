@@ -45,8 +45,11 @@ body {
 }
 
 .slider-container {
-    width: 100%;
+    width: 500px;
+    height: 300px;
     overflow: hidden;
+    position: relative;
+    margin: 20px auto;
 }
 
 .slider {
@@ -59,9 +62,18 @@ body {
     transition: opacity 0.5s ease;
 }
 
-.slide img {
+.slide image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 1s ease;
+}
+
+.slider-image.active {
+    left: 0;
 }
 
 @keyframes slide {
