@@ -97,3 +97,9 @@ body {
 .slider {
     animation: slide 20s infinite;
 }
+
+.image{
+    width: 100%;   
+  height: auto;
+  object-fit: contain; 
+}
