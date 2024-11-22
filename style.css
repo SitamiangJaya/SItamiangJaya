@@ -145,7 +145,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
   }
-  
+
   footer {
     text-align: center;
     padding: 20px;
@@ -159,6 +159,17 @@ footer a {
 }
 
 .blog-link{
-  background-color: aqua;
-  align-items: center;
+  background-color: #007bff;
+  border-radius:5px;
+  padding:10px 40px;
+  text-decoration:none;
+  color:white
+}
+
+.blog{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-align: center;
 }
