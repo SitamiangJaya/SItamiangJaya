@@ -61,11 +61,11 @@ body {
 
   .blog-post {
     background: #ffffff;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(0 220 255);
   }
 
   .blog-post img {
@@ -242,4 +242,13 @@ footer a {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.hero h1 {
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  font-size: 35px;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
