@@ -177,7 +177,7 @@ footer a {
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
   margin: auto;
 }
@@ -193,7 +193,7 @@ footer a {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color:#ffffff00;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
