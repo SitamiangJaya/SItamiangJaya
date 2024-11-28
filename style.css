@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f0f0f04d;
+    background-color: #0906064d;
     background-image: url('sitamiang.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -259,22 +259,29 @@ svg {
 	width: 100%; height: 100%;
 }
 svg text {
-	animation: stroke 5s infinite alternate;
+	animation: stroke 7s infinite alternate;
 	stroke-width: 2;
 	stroke: #365FA0;
 	font-size: 100px;
 }
 @keyframes stroke {
 	0%   {
-		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		fill: rgba(72,138,204,0); stroke: #FFEB3B;
 		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
 	}
-	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
-	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	70%  {fill: rgba(72,138,204,0); stroke: #FFEB3B; }
+	80%  {fill: rgba(72,138,204,0); stroke: #FFEB3B; stroke-width: 3; }
 	100% {
-		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
 
-.wrapper {background-color:#ffffff00};
+.wrapper {
+  background-color:#ffffff00;
+  border-radius:100px;
+  padding:5px 5px;
+  text-decoration:none;
+  color:white
+};
+
